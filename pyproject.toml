@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cs50-1"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+readme = "README.md"
+packages = [{include = "cs50_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+check50 = "3.3.11"
+replit = "^3.5.0"
+requests = "^2.31.0"
+style50 = "2.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
